@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Mark</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <div class="layer">
+    <main class="main-page">
+      <section class="section1">
+        <div class="container">
+          <div class="div-header"><h1>Bookmarker</h1></div>
+        </div>
+      </section>
+
+      <section class="section2">
+        <div class="container">
+          <div class="section2-header">
+            <h2 class="form-header">
+              <i class="fa-solid fa-bookmark"></i> Bookmark your favorite sites
+              <i class="fa-solid fa-bookmark"></i>
+            </h2>
+          </div>
+          <form action="">
+            <label class="site-label" for="sitename">
+              <i class="fa-solid fa-book-bookmark pe-2"></i> Site Name</label>
+            <input type="text" name="sitename" id="sitename" />
+
+            <label class="site-label" for="url">
+              <i class="fa-solid fa-link pe-2"></i> Site Url</label>
+            <input type="text" name="url" id="url" />
+            <input type="submit" value="Submit" name="submit" />
+          </form>
+        </div>
+      </section>
+
+      <section class="section3">
+        <div class="container">
+          <table >
+            <tr>
+              <th>index</th>
+              <th>Website Name</th>
+              <th>Visit</th>
+              <th>Delete</th>
+            </tr>
+            
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <!-- Overlay Layer -->
+    <!-- <div class="boxLayer">
+      <div class="checkBox">
+        <div class="sec1">
+          <div class="dots">
+            <i class="fa-solid fa-circle dot-1"></i>
+            <i class="fa-solid fa-circle dot-2"></i>
+            <i class="fa-solid fa-circle dot-3"></i>
+          </div>
+          <button class="outButton"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <h4>Site Name or Url is not valid, Please follow the rules below:</h4>
+        <ul class="boxList">
+          <li><i class="fa-regular fa-circle-right"></i> Site name must contain at least 3 characters</li>
+          <li><i class="fa-regular fa-circle-right"></i> Site URL must be a valid one</li>
+        </ul>
+      </div>
+    </div> -->
+  
+    
+  </div>
+  <script src="main.js">
+     
+  </script>
+</body>
+</html>
